@@ -1,51 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8'>
-    <title>ML5js Image classifier example</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
     <script src='https://unpkg.com/ml5@0.4.1/dist/ml5.min.js'></script>
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset='utf-8'>
 </head>
 <body>
-    <div id='container'>
-        <h1>Image Classifier Example</h1>
-        <img id='image' src='./images/vw_beetle.jpg'/>
-        <p id='result'>Loading model...</p>
-        <input id='file_input' type="file"/>
-    </div>
-    <script>
-        let classifier = ml5.imageClassifier('mobilenet', modelLoaded);
-        let image = document.getElementById('image');
-
-        function modelLoaded() {
-            classifier.classify(image, function(err, results) {
-                let result_text = '';
-                for (let i = 0;i < results.length;i++) {
-                    result_text = result_text + 'Class : "'+results[i].label+'", Confidence : '+results[i].confidence+'\n';
-                }
-                document.getElementById('result').innerText = result_text;
-            });
-        }
-
-        // function to handle choosing a new image
-        function handleFileSelect(evt) {
-            let files = evt.target.files;
-            let reader = new FileReader();
-
-            // Closure to capture the file information.
-            reader.onload = (function(theFile) {
-                return function(e) {
-                    image.src = e.target.result;
-                };
-            })(files[0]);
-
-            // Read in the image file as a data URL.
-            reader.readAsDataURL(files[0]);
-        }
-
-        document.getElementById('file_input').addEventListener('change', handleFileSelect, false);
-        image.addEventListener('load', modelLoaded, false);
-    </script>
+    <script src="sketch.js"></script>
 </body>
 </html>
