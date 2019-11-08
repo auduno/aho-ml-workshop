@@ -25,10 +25,10 @@ After this, you should be able to go to `http://localhost:8887` and browse the f
 
 Examples in p5.js editor:
 * Image classification : https://editor.p5js.org/auduno/sketches/ntulQR_Nv
-* Audio classification : TODO
+* Audio classification : https://editor.p5js.org/auduno/sketches/QutnV0TJA
 * Object detection with YOLO : TODO
 * Object detection with Coco-SSD : https://editor.p5js.org/auduno/sketches/5AzA2cGIj
-* PoseNet : TODO
+* PoseNet : https://editor.p5js.org/auduno/sketches/2PxQjvRhL
 * (Clmtrackr?) : TODO
 * (Sketch-RNN?) : TODO
 
