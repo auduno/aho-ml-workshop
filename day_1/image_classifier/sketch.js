@@ -8,7 +8,7 @@ function setup() {
   createCanvas(400, 400);
   input = createFileInput(handleFile);
   div = createDiv('Loading model...');
-  classifier = ml5.imageClassifier('MobileNet', modelReady);
+  classifier = ml5.imageClassifier('MobileNet', modelReady, {topk : 3});
 }
 
 function modelReady() {
@@ -25,10 +25,6 @@ function draw() {
 function handleFile(file) {
   // load image
   if (file.type === 'image') {
-    if (img) {
-      // remove previous image
-      img.remove();
-    }
     img = createImg(file.data, '');
     img.hide();
     classifier.classify(img, classifyDone);
@@ -40,9 +36,9 @@ function handleFile(file) {
 function classifyDone(error, results) {
   // get results
   let string = "";
-  string += '<div>Label: ' + results[0].label + ', Confidence: ' + results[0].confidence + '</div>';
-  string += '<div>Label: ' + results[1].label + ', Confidence: ' + results[1].confidence + '</div>';
-  string += '<div>Label: ' + results[2].label + ', Confidence: ' + results[2].confidence + '</div>';
+  for (let i = 0;i < results.length;i++) {
+    string += '<div>Label: ' + results[i].label + ', Confidence: ' + results[i].confidence + '</div>';
+  }
   // write the result to the screen
   div.html(string);
 }
