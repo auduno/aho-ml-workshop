@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>ML5js Sound classifier example</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://unpkg.com/ml5@0.4.1/dist/ml5.min.js'></script>
+</head>
+<body>
+    <div id='container'>
+        <h1>Sound Classifier Example</h1>
+        <p id='result'>Loading model...</p>
+    </div>
+    <script>
+        let classifier;
+
+        async function setup() {
+            classifier = await ml5.soundClassifier('speechCommands18w', { probabilityThreshold: 0.7 });
+            document.getElementById('result').textContent = 'Ready';
+
+            classifier.classify(gotResult);
+        }
+        setup();
+
+        function gotResult(error, results) {
+            if (error) {
+                console.error(error);
+            }
+            console.log(results);
+            document.getElementById('result').textContent = 'Label : '+results[0].label+', Confidence : '+results[0].confidence;
+        }
+    </script>
+</body>
+</html>
