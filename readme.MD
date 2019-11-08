@@ -24,10 +24,10 @@ After this, you should be able to go to `http://localhost:8887` and browse the f
 ## Day 1 : Intro to Machine Learning / classification
 
 Examples in p5.js editor:
-* Image classification : https://editor.p5js.org/auduno/sketches/uqaodJ1FB
+* Image classification : https://editor.p5js.org/auduno/sketches/ntulQR_Nv
 * Audio classification : TODO
 * Object detection with YOLO : TODO
-* Object detection with Coco-SSD : TODO
+* Object detection with Coco-SSD : https://editor.p5js.org/auduno/sketches/5AzA2cGIj
 * PoseNet : TODO
 * (Clmtrackr?) : TODO
 * (Sketch-RNN?) : TODO
