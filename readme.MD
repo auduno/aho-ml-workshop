@@ -3,11 +3,11 @@ AHO ML / AI Workshop
 
 Code and links to relevant course materials for the AHO ML/AI workshop.
 
-For the workshop we recommend using a modern browser, such as Chrome, Safari or Microsoft Edge.
+For the workshop we recommend using a modern browser, such as [Chrome](https://www.google.com/chrome/), [Safari](https://www.apple.com/safari/) or [Microsoft Edge](https://www.microsoft.com/en-us/windows/microsoft-edge).
 
-For those of you who are interested in writing code, it's possible to use either Notepad (on Windows) or TextEdit (on Mac), but we recommend downloading a more advanced code editor such as [VS Code](https://code.visualstudio.com/) or [Sublime Text](https://www.sublimetext.com/).
+For those of you who are interested in editing code locally on your computer, it's possible to use either Notepad (on Windows) or TextEdit (on Mac), but we recommend downloading a more advanced code editor such as [VS Code](https://code.visualstudio.com/) or [Sublime Text](https://www.sublimetext.com/).
 
-If you want to test the code in this repository, you'll need to set up a local webserver. You can do this by either using the Chrome extension [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en):
+If you want to run the code in this repository, you'll need to set up a local webserver. You can do this by either using the Chrome extension [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en):
 
 * install the Chrome extension [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en)
 * Start the extension
@@ -23,43 +23,52 @@ After this, you should be able to go to `http://localhost:8887` in your browser,
 
 ## Day 1 : Intro to Machine Learning / classification
 
-Examples in p5.js editor:
+Intro to p5.js:
+* get started with p5.js : https://p5js.org/get-started/
+* p5.js reference : https://p5js.org/reference/
+
+Basic p5.js examples:
+* Changing color of background : https://editor.p5js.org/auduno/sketches/fYK2ZOjsx
+* Drawing a rectangle to canvas : https://editor.p5js.org/auduno/sketches/6ZeqDkhZN
+* Drawing a circle to canvas : https://editor.p5js.org/auduno/sketches/kWQO81200
+* Drawing text to canvas : https://editor.p5js.org/auduno/sketches/nkT4nnjzT
+* Drawing an image to canvas : https://editor.p5js.org/auduno/sketches/YxpWijbcA
+* Setting up a webcam : https://editor.p5js.org/auduno/sketches/23ZwMLAV9
+* Playing sound : https://editor.p5js.org/auduno/sketches/hd-dHQjl5
+* Adding buttons (to for instance play and stop music) : https://editor.p5js.org/auduno/sketches/O8aflsB5M
+* Playing oscillator : https://editor.p5js.org/auduno/sketches/28tk2VZNk
+* Adding some HTML outside canvas : https://editor.p5js.org/auduno/sketches/qDkMHm2Gd
+
+ML5js examples in p5.js editor:
 * Image classification : https://editor.p5js.org/auduno/sketches/ntulQR_Nv
 * Audio classification : https://editor.p5js.org/auduno/sketches/QutnV0TJA
 * Object detection with YOLO : https://editor.p5js.org/auduno/sketches/TApMHyvtv
 * Object detection with Coco-SSD : https://editor.p5js.org/auduno/sketches/5AzA2cGIj
 * PoseNet : https://editor.p5js.org/auduno/sketches/2PxQjvRhL
 
-Examples of triggering actions in p5.js:
-* Changing color background
-* Playing (and stopping) music
-* Playing oscillator : (https://p5js.org/reference/#/p5.Oscillator)
-* Adding some text
-* Drawing a shape on top of image
-* Drawing an image on top of canvas
+Teachable machine models in p5.js:
+* PoseNet : https://editor.p5js.org/auduno/sketches/LA-opq0Pf
 
 Resources:
-* [ml5js](https://ml5js.org/)
 * [p5.js](https://p5js.org/)
+* [ml5js](https://ml5js.org/)
 * [Teachable Machine](https://teachablemachine.withgoogle.com)
 
-## Day 2 : Similarity and search, Generative ML
-
-Visualizing complex content:
-* [Nasjonalmuseet VY](http://vy.nasjonalmuseet.no/)
-* [The infinite drum machine](https://experiments.withgoogle.com/drum-machine)
-* []()
+## Day 2 : (?), Generative ML
 
 ### Generative Machine Learning
 
-Generative music:
+Generative examples in p5.js:
+* Char-RNN : TODO
+* SketchRNN : TODO
+
+Generative music/sound (external examples):
 * [Performance RNN](https://magenta.tensorflow.org/demos/performance_rnn/index.html)
 * [](https://teropa.info/gdgua2018/#/neural-drum-machine)
 * [CocoNet](https://magenta.tensorflow.org/coconet)
 
-Generative text:
+Generative text (external examples):
 * [Talk to transformer](https://talktotransformer.com/)
-* [Char-RNN](TODO)
 
 Resources:
 
