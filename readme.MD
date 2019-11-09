@@ -19,18 +19,16 @@ or using [Python](https://www.python.org/) (which should be installed by default
 * Browse to the folder with these files via `cd` command
 * run `python -m SimpleHTTPServer 8887`
 
-After this, you should be able to go to `http://localhost:8887` and browse the files in this folder.
+After this, you should be able to go to `http://localhost:8887` in your browser, and browse the files in this folder.
 
 ## Day 1 : Intro to Machine Learning / classification
 
 Examples in p5.js editor:
 * Image classification : https://editor.p5js.org/auduno/sketches/ntulQR_Nv
 * Audio classification : https://editor.p5js.org/auduno/sketches/QutnV0TJA
-* Object detection with YOLO : TODO
+* Object detection with YOLO : https://editor.p5js.org/auduno/sketches/TApMHyvtv
 * Object detection with Coco-SSD : https://editor.p5js.org/auduno/sketches/5AzA2cGIj
 * PoseNet : https://editor.p5js.org/auduno/sketches/2PxQjvRhL
-* (Clmtrackr?) : TODO
-* (Sketch-RNN?) : TODO
 
 Examples of triggering actions in p5.js:
 * Changing color background
