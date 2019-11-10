@@ -59,6 +59,7 @@ Teachable machine models in p5.js:
 Resources:
 * [p5.js](https://p5js.org/)
 * [ml5js](https://ml5js.org/)
+* [Some more details on PoseNet](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5)
 * [Teachable Machine](https://teachablemachine.withgoogle.com)
 
 ## Day 2 : (?), Generative ML
