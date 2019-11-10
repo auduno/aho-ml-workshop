@@ -61,33 +61,3 @@ Resources:
 * [ml5js](https://ml5js.org/)
 * [Some more details on PoseNet](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5)
 * [Teachable Machine](https://teachablemachine.withgoogle.com)
-
-## Day 2 : (?), Generative ML
-
-### Generative Machine Learning
-
-Generative examples in p5.js:
-* Char-RNN : TODO
-* SketchRNN : TODO
-
-Generative music/sound (external examples):
-* [Performance RNN](https://magenta.tensorflow.org/demos/performance_rnn/index.html)
-* [](https://teropa.info/gdgua2018/#/neural-drum-machine)
-* [CocoNet](https://magenta.tensorflow.org/coconet)
-
-Generative text (external examples):
-* [Talk to transformer](https://talktotransformer.com/)
-
-Resources:
-
-* [Runway ML Beta](https://runwayml.com/)
-
-## Day 3 : GANs, Working with ML
-
-Resources:
-* [People + AI Guidebook](https://pair.withgoogle.com/)
-
-More resources : 
-* [Teslas Deep Learning at scale](https://towardsdatascience.com/teslas-deep-learning-at-scale-7eed85b235d3)
-* [Visualizing sound with t-sne](https://medium.com/@LeonFedden/comparative-audio-analysis-with-wavenet-mfccs-umap-t-sne-and-pca-cb8237bfce2f)
-* [Visualizing with ML](https://media.neurips.cc/Conferences/NIPS2018/Slides/Visualization_for_ML.pdf)
