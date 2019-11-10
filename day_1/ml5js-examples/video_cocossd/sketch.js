@@ -7,9 +7,9 @@ function setup() {
   createCanvas(640, 480);
   video = createCapture(VIDEO);
   video.size(640, 480);
-  video.elt.addEventListener('loadedmetadata', loadCocoModel);
+  video.elt.addEventListener("loadedmetadata", loadCocoModel);
   video.hide();
-  status = select('#status');
+  status = select("#status");
 }
 
 function draw() {
@@ -33,13 +33,13 @@ function draw() {
 
 function loadCocoModel() {
   cocoSsd.load({
-    'base': 'mobilenet_v2'
+    'base': "mobilenet_v2"
   }).then(modelReady);
 }
 
 function modelReady(model) {
   detectionModel = model;
-  status.html('Model loaded!');
+  status.html("Model loaded!");
   detect();
 }
 

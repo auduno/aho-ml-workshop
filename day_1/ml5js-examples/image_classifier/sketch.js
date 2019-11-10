@@ -4,15 +4,15 @@ let classifier;
 let div;
 
 function setup() {
-  title = createDiv('<h1>Image classification example</h1>');
+  title = createDiv("<h1>Image classification example</h1>");
   createCanvas(400, 400);
   input = createFileInput(handleFile);
-  div = createDiv('Loading model...');
-  classifier = ml5.imageClassifier('MobileNet', modelReady, {topk : 3});
+  div = createDiv("Loading model...");
+  classifier = ml5.imageClassifier("MobileNet", {topk : 3}, modelReady);
 }
 
 function modelReady() {
-  div.html('Model ready!');
+  div.html("Model ready!");
 }
 
 function draw() {
@@ -24,8 +24,8 @@ function draw() {
 
 function handleFile(file) {
   // load image
-  if (file.type === 'image') {
-    img = createImg(file.data, '');
+  if (file.type === "image") {
+    img = createImg(file.data, "");
     img.hide();
     classifier.classify(img, classifyDone);
   } else {
@@ -37,7 +37,7 @@ function classifyDone(error, results) {
   // get results
   let string = "";
   for (let i = 0;i < results.length;i++) {
-    string += '<div>Label: ' + results[i].label + ', Confidence: ' + results[i].confidence + '</div>';
+    string += "<div>Label: " + results[i].label + ", Confidence: " + results[i].confidence + "</div>";
   }
   // write the result to the screen
   div.html(string);

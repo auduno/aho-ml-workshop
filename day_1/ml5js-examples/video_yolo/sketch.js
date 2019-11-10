@@ -12,7 +12,7 @@ function setup() {
   yolo = ml5.YOLO(video, options, modelReady);
   
   video.hide();
-  status = select('#status');
+  status = select("#status");
 }
 
 function draw() {
@@ -34,7 +34,7 @@ function draw() {
 }
 
 function modelReady() {
-  status.html('Model ready');
+  status.html("Model ready");
   detectVideo();
 }
 

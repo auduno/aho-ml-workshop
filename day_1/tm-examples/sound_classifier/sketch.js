@@ -1,10 +1,12 @@
 let classifier;
 let status;
 
+let modelURL = "https://teachablemachine.withgoogle.com/models/i48gtl5-/";
+
 function setup() {
   //createCanvas(400, 400);
   let options = { probabilityThreshold: 0.7 };
-  classifier = ml5.soundClassifier("speechCommands18w", options, modelReady);
+  classifier = ml5.soundClassifier(modelURL + "model.json", options, modelReady);
   status = select("#status");
 }
 

@@ -8,12 +8,12 @@ function setup() {
   video = createCapture(VIDEO);
   video.size(width, height);
 
-  poseNet = ml5.poseNet(video, modelReady);
+  poseNet = ml5.poseNet(video, "multiple", modelReady);
   // trigger detectedPose on pose events
-  poseNet.on('pose', detectedPose);
+  poseNet.on("pose", detectedPose);
 
   video.hide();
-  status = select('#status');
+  status = select("#status");
 }
 
 function draw() {
@@ -24,7 +24,7 @@ function draw() {
 }
 
 function modelReady() {
-  status.html('Model Loaded');
+  status.html("Model Loaded");
 }
 
 function detectedPose(results) {
