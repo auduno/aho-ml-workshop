@@ -3,11 +3,13 @@ AHO ML / AI Workshop
 
 Code and links to relevant course materials for the AHO ML/AI workshop.
 
-For the workshop we recommend using a modern browser, such as [Chrome](https://www.google.com/chrome/), [Safari](https://www.apple.com/safari/) or [Microsoft Edge](https://www.microsoft.com/en-us/windows/microsoft-edge).
+For the workshop we recommend using a modern browser, such as [Chrome](https://www.google.com/chrome/), [Firefox](https://www.mozilla.org/en-US/firefox/new/) or [Safari](https://www.apple.com/safari/).
+
+Most of the exercises can be done in the [p5.js editor](https://editor.p5js.org/), but it's also possible to download the code in this repository, edit and run the code examples locally on your computer.
 
 For those of you who are interested in editing code locally on your computer, it's possible to use either Notepad (on Windows) or TextEdit (on Mac), but we recommend downloading a more advanced code editor such as [VS Code](https://code.visualstudio.com/) or [Sublime Text](https://www.sublimetext.com/).
 
-If you want to run the code in this repository, you'll need to set up a local webserver. You can do this by either using the Chrome extension [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en):
+If you want to run the code examples in this repository, you'll need to set up a local webserver. You can do this by either using the Chrome extension [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en):
 
 * install the Chrome extension [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en)
 * Start the extension
@@ -24,6 +26,7 @@ After this, you should be able to go to `http://localhost:8887` in your browser,
 ## Day 1 : Intro to Machine Learning / classification
 
 Intro to p5.js:
+* p5.js editor : https://editor.p5js.org/
 * get started with p5.js : https://p5js.org/get-started/
 * p5.js reference : https://p5js.org/reference/
 
@@ -36,17 +39,21 @@ Basic p5.js examples:
 * Setting up a webcam : https://editor.p5js.org/auduno/sketches/23ZwMLAV9
 * Playing sound : https://editor.p5js.org/auduno/sketches/hd-dHQjl5
 * Adding buttons (to for instance play and stop music) : https://editor.p5js.org/auduno/sketches/O8aflsB5M
-* Playing oscillator : https://editor.p5js.org/auduno/sketches/28tk2VZNk
+* Generating sound with p5 oscillator : https://editor.p5js.org/auduno/sketches/28tk2VZNk
+* Generating speech with p5 speech : https://editor.p5js.org/auduno/sketches/7GNUSmq5F
 * Adding some HTML outside canvas : https://editor.p5js.org/auduno/sketches/qDkMHm2Gd
 
 ML5js examples in p5.js editor:
 * Image classification : https://editor.p5js.org/auduno/sketches/ntulQR_Nv
+* Image classification (with webcam) : https://editor.p5js.org/auduno/sketches/eu2HQhI-b
 * Audio classification : https://editor.p5js.org/auduno/sketches/QutnV0TJA
 * Object detection with YOLO : https://editor.p5js.org/auduno/sketches/TApMHyvtv
 * Object detection with Coco-SSD : https://editor.p5js.org/auduno/sketches/5AzA2cGIj
 * PoseNet : https://editor.p5js.org/auduno/sketches/2PxQjvRhL
 
 Teachable machine models in p5.js:
+* Image classification (with webcam) : https://editor.p5js.org/auduno/sketches/dG8rkr8Cd
+* Audio classification : https://editor.p5js.org/auduno/sketches/azPsAtRlC
 * PoseNet : https://editor.p5js.org/auduno/sketches/LA-opq0Pf
 
 Resources:
