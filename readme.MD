@@ -61,3 +61,16 @@ Resources:
 * [ml5js](https://ml5js.org/)
 * [Some more details on PoseNet](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5)
 * [Teachable Machine](https://teachablemachine.withgoogle.com)
+
+## Day 2 : Workshop, similarity and search, Generative ML
+
+### Similarity maps
+
+* http://vy.nasjonalmuseet.no
+* http://fontmap.ideo.com/
+* https://experiments.withgoogle.com/ai/drum-machine/view/
+* https://cs.stanford.edu/people/karpathy/cnnembed/
+* https://projector.tensorflow.org/
+* some links on t-SNE and umap:
+    * https://distill.pub/2016/misread-tsne/
+    * https://pair-code.github.io/understanding-umap/
