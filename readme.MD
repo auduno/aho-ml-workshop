@@ -74,3 +74,24 @@ Resources:
 * some links on t-SNE and umap:
     * https://distill.pub/2016/misread-tsne/
     * https://pair-code.github.io/understanding-umap/
+
+### Generative Machine Learning
+
+Generative drawing:
+* [SketchRNN](https://magenta.tensorflow.org/assets/sketch_rnn_demo/index.html)
+    * [Some more info on the sketch dataset](https://www.blog.google/technology/ai/quick-draw-one-billion-drawings-around-world/)
+* [SketchRNN in p5js](https://editor.p5js.org/ml5/sketches/SketchRNN_basic)
+* [SketchRNN interactive in p5js](https://editor.p5js.org/ml5/sketches/SketchRNN_interactive)
+* [Generative handwriting](https://distill.pub/2016/handwriting/)
+
+Generative text:
+* [Talk to transformer](https://talktotransformer.com/)
+* [CharRNN in ml5js](https://ml5js.org/reference/api-charRNN/)
+    * [Training your own char-rnn](https://github.com/ml5js/training-charRNN)
+
+Generative music/sound:
+* [Performance RNN](https://magenta.tensorflow.org/demos/performance_rnn/index.html)
+* [Folk-RNN](https://folkrnn.org/)
+* [Google Bach Doodle RNN](https://www.google.com/doodles/celebrating-johann-sebastian-bach) - more info [here](https://magenta.tensorflow.org/coconet)
+* [Musenet](https://openai.com/blog/musenet/)
+* [Music transformer](https://magenta.tensorflow.org/music-transformer)
