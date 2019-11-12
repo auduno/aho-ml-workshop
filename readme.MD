@@ -54,7 +54,7 @@ ML5js examples in p5.js editor:
 Teachable machine models in p5.js:
 * Image classification (with webcam) : https://editor.p5js.org/auduno/sketches/dG8rkr8Cd
 * Audio classification : https://editor.p5js.org/auduno/sketches/azPsAtRlC
-* PoseNet : https://editor.p5js.org/auduno/sketches/LA-opq0Pf
+* PoseNet : https://editor.p5js.org/auduno/sketches/7hDcPUU0o
 
 Resources:
 * [p5.js](https://p5js.org/)
