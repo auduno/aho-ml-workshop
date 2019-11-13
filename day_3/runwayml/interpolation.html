@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <script src="js/lib/p5.js"></script>
+    <script src="js/lib/p5.dom.js"></script>
+    <script src="js/stylegan-transition2.js"></script>
+  </head>
+  <body>
+      <h1>Interpolation through latent space of StyleGAN model</h1>
+      <p>Remember to start runwayML first.</p>
+      <label for='latentA'>Latent vector A : </label>
+      <textarea name="latentA" cols=100 rows=2></textarea><br/>
+      <label for='latentB'>Latent vector B : </label>
+      <textarea name="latentB" cols=100 rows=2></textarea><br/>
+      <label for='runway_port'>RunwayML port : </label>
+      <textarea name="runway_port" cols=6 rows=1>8000</textarea><br/>
+      <label for='truncation'>Truncation : </label>
+      <input type="range" name="truncation" min="0.05" max="1" step='0.05'><br/>
+      <label for='checkbox'>Save images : </label>
+      <input type="checkbox" name="save"><br>
+      <input id='startbutton' type="button" value='Start interpolation'><input id='stopbutton' type="button" value='Stop'><br/>
+  </body>
+  <script>
+    document.getElementById('startbutton').addEventListener('click', function() {loop = true;generateImage();});
+    document.getElementById('stopbutton').addEventListener('click', function() {loop = false});
+    // set some default values
+    document.getElementsByName('latentA')[0].value = JSON.stringify(a1);
+    document.getElementsByName('latentB')[0].value = JSON.stringify(b1);
+  </script>
+</html>

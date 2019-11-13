@@ -95,3 +95,26 @@ Generative music/sound:
 * [Google Bach Doodle RNN](https://www.google.com/doodles/celebrating-johann-sebastian-bach) - more info [here](https://magenta.tensorflow.org/coconet)
 * [Musenet](https://openai.com/blog/musenet/)
 * [Music transformer](https://magenta.tensorflow.org/music-transformer)
+
+## Day 3 : Generative Machine Learning, Considerations working with ML
+
+### Generative Adversarial Networks
+
+GAN examples:
+* BigGAN class visualization : https://www.youtube.com/watch?v=YY6LrQSxIbc&feature=youtu.be
+* StyleGAN presentation : https://www.youtube.com/watch?v=kSLJriaOumA&feature=youtu.be&t=25s
+* StyleGAN faces : https://thispersondoesnotexist.com/
+* StyleGAN cars interpolation : https://youtu.be/OLZ3-ZJwSu4
+* StyleGAN trained on photobooth photos : https://www.reddit.com/r/Damnthatsinteresting/comments/9udese/plugging_50000_portraits_into_facial/?utm_source=share&utm_medium=web2x
+* StyleGAN trained on Garfield : https://twitter.com/calamardh/status/1148655219032690692
+
+Conditional GANs / Image translation:
+* [Pix2Pix Demo](https://affinelayer.com/pixsrv/)
+* [Edges2Pikachu](https://yining1023.github.io/pix2pix_tensorflowjs_lite/)
+* [Celebrity Pix2Pix](https://zaidalyafeai.github.io/pix2pix/celeb.html)
+* [GauGAN/SPADE online](https://nvlabs.github.io/SPADE/demo.html)
+* [Pix2pix applied to video](https://vimeo.com/260612034)
+
+Hands-on:
+* [Artbreeder](https://artbreeder.com/)
+* [Runway ML](https://runwayml.com/)
